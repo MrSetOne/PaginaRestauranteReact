@@ -9,7 +9,9 @@
     top: 0;
 }
 
-.NavBar h2 {
+.NavBar h2,
+.NavBar a {
+    font-weight: 700;
     font-size: 3rem;
     color: white;
     text-align: center;

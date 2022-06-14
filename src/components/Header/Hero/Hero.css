@@ -4,10 +4,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70rem;
+    height: calc(100vh - 8rem);
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2rem solid #2d2d2d;
 }
 
 .Hero__title {

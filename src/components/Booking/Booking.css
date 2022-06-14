@@ -1,0 +1,68 @@
+.Booking {
+    height: calc(100vh - 8rem);
+    background-image: url(../../assets/restaurant.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 0px 93px 105px #000000;
+}
+
+.Booking form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: min(95vw, 60rem);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.Booking form * {
+    font-size: 2rem;
+}
+
+.Booking input {
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.Booking label {
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.Booking button {
+    background-color: #e66464;
+    border: none;
+    outline: none;
+    padding: 1rem .5rem;
+}
+
+.alerter {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.7rem;
+    background-color: #e66464;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    animation: alertin .5s;
+}
+
+@keyframes alertin {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+    100% {
+        bottom: 10px;
+        opacity: 1;
+    }
+}
