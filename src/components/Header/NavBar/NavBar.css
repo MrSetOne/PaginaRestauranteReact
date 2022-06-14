@@ -1,0 +1,30 @@
+.NavBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 7rem;
+    background: rgb(45, 45, 45);
+    background: linear-gradient(0deg, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    position: sticky;
+    top: 0;
+}
+
+.NavBar h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width: 875px) {
+    .NavBar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 475px) {
+    .NavBar {
+        grid-template-columns: 1fr;
+    }
+}

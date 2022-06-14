@@ -1,0 +1,22 @@
+.recommended {
+    width: 100%;
+    background: rgb(45, 45, 45);
+    background: linear-gradient(180deg, rgba(45, 45, 45, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.recommended__hero {
+    background-image: url(../../../assets/bravas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended__hero h3 {
+    color: white;
+    font-size: min(12.5vw, 17rem);
+}
